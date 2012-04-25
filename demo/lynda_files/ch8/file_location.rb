@@ -22,4 +22,4 @@ puts File.join(File.dirname(__FILE__), '..', "ch6")
 # Notes: File paths
 # Absolute path: /path/to/file (this will start at the root harddrive and work up)
 
-# Relative path: ./../../path/to/file (../ = parent dir. ./ = current dir)
+# Relative path: ./../../path/to/file (../ = parent dir. ./ = current dir
