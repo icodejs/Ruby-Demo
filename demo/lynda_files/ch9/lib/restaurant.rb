@@ -1,4 +1,7 @@
+require 'support/number_helper'
+
 class Restaurant
+    include NumberHelper
 
     attr_accessor :name, :cuisine, :price
 
@@ -87,5 +90,9 @@ class Restaurant
             file.puts "#{[@name, @cuisine, @price].join("\t")}\n"
             return true
         end
+    end
+
+    def formatted_price
+        number_to_currency(@price)
     end
 end

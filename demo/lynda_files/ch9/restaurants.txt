@@ -1,2 +1,4 @@
 pizza hit	usa	25
 cafe nero	uk	90
+ouou	oiohihoh	7
+pita poket	Fast food	9349
