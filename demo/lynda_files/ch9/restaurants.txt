@@ -1,0 +1,2 @@
+pizza hit	usa	25
+cafe nero	uk	90
